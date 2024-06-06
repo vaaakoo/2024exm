@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="input-section">
+    <input type="text" placeholder="Add a new task" [(ngModel)]="this.newTodoText" >
+    <button (click)="addTodos()">+</button>
+  </div>
+
+  <div class="list-section">
+    <h3>Tasks to do -</h3>
+    <ng-container *ngFor="let todo of todos">
+      <div class="task" *ngIf="!todo.isCompleted">
+        <p class="text">{{todo.text}}</p>
+        <div class="changes">
+          <span class="complete" (click)="toggleCompletion(todo)">V</span>
+          <span class="delete" (click)="deleteTodo(todo.id)">delete</span>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <div class="done-section">
+    <h3>Done -</h3>
+    <ng-container *ngFor="let todo of todos">
+      <div class="task" *ngIf="todo.isCompleted">
+        <p class="text" >{{todo.text}}</p>
+      </div>
+    </ng-container>
+  </div>
+
+</div>
+
+
+<router-outlet />
