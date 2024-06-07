@@ -1,0 +1,6 @@
+@signApi_HostAddress = http://localhost:5164
+
+GET {{signApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
