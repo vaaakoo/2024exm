@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vjani\\OneDrive\\Desktop\\New folder (2)\\back\\signApi\\signApi.csproj": {}
+    "C:\\Users\\vjani\\OneDrive\\Desktop\\2024\\2024exm\\signUpApp\\back\\signApi\\signApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vjani\\OneDrive\\Desktop\\New folder (2)\\back\\signApi\\signApi.csproj": {
+    "C:\\Users\\vjani\\OneDrive\\Desktop\\2024\\2024exm\\signUpApp\\back\\signApi\\signApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vjani\\OneDrive\\Desktop\\New folder (2)\\back\\signApi\\signApi.csproj",
+        "projectUniqueName": "C:\\Users\\vjani\\OneDrive\\Desktop\\2024\\2024exm\\signUpApp\\back\\signApi\\signApi.csproj",
         "projectName": "signApi",
-        "projectPath": "C:\\Users\\vjani\\OneDrive\\Desktop\\New folder (2)\\back\\signApi\\signApi.csproj",
+        "projectPath": "C:\\Users\\vjani\\OneDrive\\Desktop\\2024\\2024exm\\signUpApp\\back\\signApi\\signApi.csproj",
         "packagesPath": "C:\\Users\\vjani\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vjani\\OneDrive\\Desktop\\New folder (2)\\back\\signApi\\obj\\",
+        "outputPath": "C:\\Users\\vjani\\OneDrive\\Desktop\\2024\\2024exm\\signUpApp\\back\\signApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vjani\\AppData\\Roaming\\NuGet\\NuGet.Config",

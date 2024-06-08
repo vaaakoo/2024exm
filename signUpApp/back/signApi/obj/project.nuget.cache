@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7Em5MBWnlpkar+zal3dArkHyrQ2cvUtRaaL+plv9BpxORx2hrLHHXiY/UpqvqMKZN02IMQKhDlFs+MQ1R55X4w==",
+  "dgSpecHash": "PcLFNVfGk5ySYgojGU+sIiW9Y1eIsNl6uupn1FyowA3I69PkKSMitFABUIjHX8JCLgJJw4s3vGciqmpsTI5WoA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vjani\\OneDrive\\Desktop\\New folder (2)\\back\\signApi\\signApi.csproj",
+  "projectFilePath": "C:\\Users\\vjani\\OneDrive\\Desktop\\2024\\2024exm\\signUpApp\\back\\signApi\\signApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vjani\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\vjani\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

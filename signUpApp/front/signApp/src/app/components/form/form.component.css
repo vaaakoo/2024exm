@@ -74,5 +74,9 @@ form {
       padding: 6px 16px;
       font-weight: 500;
       cursor: pointer;
+
+      p {
+        display: contents;
+      }
   }
   }

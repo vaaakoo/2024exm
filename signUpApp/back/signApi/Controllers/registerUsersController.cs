@@ -97,8 +97,8 @@ namespace signApi.Controllers
             }
 
             // In a real application, generate a JWT token or other session identifier here
-
-            return Ok("Login successful.");
+            
+            return Ok("Login successful.") ;
         }
     }
 }

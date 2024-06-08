@@ -8,7 +8,12 @@ import { SignupService } from '../../services/signup.service';
   styleUrl: './form.component.css'
 })
 export class FormComponent implements OnInit {
-  user: User = new User;
+  user: User = {
+    id: 0,
+    fullName: "",
+    email: "",
+    password: ""
+  }
   
   constructor(private signupService: SignupService){}
   ngOnInit(): void {
@@ -24,8 +29,18 @@ export class FormComponent implements OnInit {
   }
   
   addUser() {
+    if (!this.user.fullName?.trim() || !this.user.email?.trim() || !this.user.password?.trim()) {
+      alert("fill please all field!");
+      return;
+    }
     this.signupService.addUser(this.user).subscribe(response => {
-      console.log('User added:', response);
+      alert("Successfuly Registered!" + this.user.fullName);
+      this.user = {
+        id: 0,
+        fullName: "",
+        email: "",
+        password: ""
+      }
       this.getUsers();
     }, error => {
       console.error('Error adding user:', error);
