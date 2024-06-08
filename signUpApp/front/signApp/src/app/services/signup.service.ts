@@ -19,5 +19,9 @@ export class SignupService {
   addUser(user: User): Observable<User> {
     return this.http.post<User>(this.apiUrl, user);
   }
-  
+
+  loginUser(user: User): Observable<any> {
+    const loginUrl = `${environment.apiUrl}/login`;
+    return this.http.post(loginUrl, user, { responseType: 'text' });
+  }
 }

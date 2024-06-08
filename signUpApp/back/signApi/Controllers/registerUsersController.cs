@@ -87,18 +87,19 @@ namespace signApi.Controllers
         {
             if (loginModel == null)
             {
-                return BadRequest("Invalid client request.");
+                return BadRequest(new { message = "Invalid client request." });
             }
 
             var user = await _context.users.FirstOrDefaultAsync(u => u.Email == loginModel.Email && u.Password == loginModel.Password);
             if (user == null)
             {
-                return Unauthorized("Invalid credentials.");
+                return Unauthorized(new { message = "Invalid credentials." });
             }
 
             // In a real application, generate a JWT token or other session identifier here
-            
-            return Ok("Login successful.") ;
+
+            return Ok(new { message = "Login successful." });
         }
+
     }
 }

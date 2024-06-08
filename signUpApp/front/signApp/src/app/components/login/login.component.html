@@ -1,0 +1,28 @@
+<form (ngSubmit)="loginUser()" class="was-validated needs-validate" novalidate="">
+    <h1>Please Log In! </h1>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" placeholder="Enter your email here" [(ngModel)]="user.email" name="email" required="email">
+    </div>
+    <div class="mb-3">
+      <label for="password" class="form-label">Password</label>
+      <input type="password" class="form-control" placeholder="Enter your password" [(ngModel)]="user.password" name="password" required="">
+    </div>
+    
+    <div class="button-sec">
+      <button type="submit" class="btn btn-green">Sign In</button>
+    </div>
+    <div class="or-class">
+      <h1>OR</h1>
+      <div class="signup">
+        <div class="signup-child">
+          <img src="../assets/Google.png" alt="google">
+          <p>Sign in with Google</p>
+        </div>
+        <div class="signup-child">
+          <img src="../assets/GitHub.png" alt="github">
+          <p>Sign in with Github</p>
+        </div>
+      </div>
+    </div>
+  </form>

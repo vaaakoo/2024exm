@@ -1,0 +1,82 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        margin-top: 112px;
+        margin-bottom: 34px;
+    }
+  }
+  
+  .form-label {
+    font-weight: 700;
+  }
+
+  .form-control {
+    width: 600px;
+    height: 65px;
+    background-color: #EFF0F2;
+    margin-bottom: 36px;
+  }
+
+  .button-sec {
+    margin-top: 14px;
+    margin-bottom: 34px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    
+    p {
+        font-size: 18px;
+    }
+
+    span {
+        cursor: pointer;
+        color: #007074;
+    }
+  }
+
+  .btn-green {
+    width: 300px;
+    height: 60px;
+    background-color: #007074;
+    color: #ffff;
+    font-size: 26px;
+    font-weight: 600;
+  }
+  
+  .or-class {
+    width: 600px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    h1 {
+        margin: 0;
+    }
+  }
+  .signup {
+    display: flex;
+    gap: 24px;
+    
+    .signup-child {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      width: 288px;
+      border: 1px solid #D2D2D2;
+      padding: 6px 16px;
+      font-weight: 500;
+      cursor: pointer;
+
+      p {
+        display: contents;
+      }
+  }
+  }
